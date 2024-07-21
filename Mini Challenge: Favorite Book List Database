@@ -1,0 +1,29 @@
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating REAL);
+
+INSERT INTO books VALUES (1, "To Kill A Mockingbird", 7.3);
+INSERT INTO books VALUES (2, "Divergent",9.5);
+INSERT INTO books VALUES (3, "Sonic The Hedgehog", 8.3);
+INSERT INTO books VALUES (4, "Batman Series", 9.5);
+INSERT INTO books VALUES (5, "The Alchemist", 7.3);
+INSERT INTO books VALUES (6, "1984", 9.0);
+INSERT INTO books VALUES (7, "Pride and Prejudice", 8.7);
+INSERT INTO books VALUES (8, "The Great Gatsby", 8.5);
+INSERT INTO books VALUES (9, "Moby Dick", 7.8);
+INSERT INTO books VALUES (10, "War and Peace", 8.2);
+INSERT INTO books VALUES (11, "The Catcher in the Rye", 8.0);
+INSERT INTO books VALUES (12, "The Hobbit", 9.1);
+INSERT INTO books VALUES (13, "Harry Potter and the Sorcerer's Stone", 9.6);
+INSERT INTO books VALUES (14, "The Lord of the Rings", 9.7);
+INSERT INTO books VALUES (15, "The Chronicles of Narnia", 8.9);
+INSERT INTO books VALUES (16, "Alice's Adventures in Wonderland", 8.4);
+INSERT INTO books VALUES (17, "Brave New World", 8.6);
+INSERT INTO books VALUES (18, "Jane Eyre", 8.8);
+INSERT INTO books VALUES (19, "Wuthering Heights", 8.3);
+INSERT INTO books VALUES (20, "The Odyssey", 8.1);
+INSERT INTO books VALUES (21, "The Iliad", 8.2);
+INSERT INTO books VALUES (22, "Frankenstein", 8.5);
+INSERT INTO books VALUES (23, "Dracula", 8.4);
+INSERT INTO books VALUES (24, "The Picture of Dorian Gray", 8.6);
+INSERT INTO books VALUES (25, "Fahrenheit 451", 8.9);
+
+SELECT * FROM books
